@@ -1,0 +1,17 @@
+<!-- res/menu/main_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_juvenil"
+        android:title="Juvenil"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_senior"
+        android:title="Sênior"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_geral"
+        android:title="Geral"
+        app:showAsAction="ifRoom" />
+</menu>
+
